@@ -16,10 +16,10 @@ module.exports = function createDreamTeam(members) {
         
         let itemUpperCase = itemTrimmed[0].toUpperCase();
         
-        name.push(itemUpperCase);
+        names.push(itemUpperCase);
     });
 
-    name.sort();
-    let result = name.join('');
+    names.sort();
+    let result = names.join('');
     return result;
 };
